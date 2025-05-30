@@ -1,0 +1,32 @@
+Todos los comandos llevan "git" despues del signo $
+
+init: Crea un repositorio Git nuevo. Almacena una carpeta .git y otros constructores
+
+add <file>: En caso de modificar un archivo, este comando lo agregaa la "fila" para convertirlo en un commit
+
+commit: Guarda los cambios como una foto del repositorio en el "staging area". 
+        Esto queda guardado en el historial de Git y no cambia a menos que se indique explicitamente
+
+log: Muestra el historial de confirmaciones en el repositorio. 
+        Sirve para ver cambios específicos, filtrarlos y usarlos segun se necesite
+
+status: Te permite examinar tu directorio de trabajo y la zona de preparación (staging area).
+        Muestra que archivos han sido creados, modificados o eliminados y qué cambios estan listos para ser confirmados.
+
+checkout <id>: Cambia de directorio para que coincida con el estado de la rama, commit o archivo.
+        No modifica el historial de confirmaciones a menos que se cree un nuevo commit a partir de esa rama
+
+reset <id>: En cambio a checkout, reset sí puede alterar el historial de commits. Este comando hace que el apuntador "HEAD"
+        cambie su referencia al commit seleccionado, lo que significa que se convertirá en el commit "MAIN"
+
+reset --hard: Al igual que reset, cambia de referencia al commit que selecciones pero, en cambio descarta todas las actualizaciones
+        posteriores a este, lo que resulta en la pérdida de los cambios que no fueron confirmados
+
+alias: Los alias son comandos personalizables que pueden simplificar el uso de un código recurrente, muy útil si dicho código
+        es extenso. Por ejemplo: git config --global alias.[alias] [comando] --> git config --global alias.tree git log
+
+diff: Sirve para comparar las diferencias que tiene el fichero referente a su ultima confirmacion de commit
+
+reflog: Muestra el historial completo y detallado de las confirmaciones en el repositorio
+
+tag: Añade un nombre a los commits
