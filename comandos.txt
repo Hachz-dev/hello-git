@@ -34,3 +34,5 @@ tag: Añade un nombre a los commits
 branch: Crea una nueva rama de trabajo. Esta trabaja independiente de la rama original
 
 switch <rama>: Cambia tu sitio de trabajo entre ramas
+
+merge <rama>: Combina los datos de ultimo commit de la rama seleccionada con el estado de la rama en la que te encuentras
