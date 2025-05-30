@@ -30,3 +30,7 @@ diff: Sirve para comparar las diferencias que tiene el fichero referente a su ul
 reflog: Muestra el historial completo y detallado de las confirmaciones en el repositorio
 
 tag: Añade un nombre a los commits
+
+branch: Crea una nueva rama de trabajo. Esta trabaja independiente de la rama original
+
+switch <rama>: Cambia tu sitio de trabajo entre ramas
