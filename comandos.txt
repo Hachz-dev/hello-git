@@ -36,3 +36,8 @@ branch: Crea una nueva rama de trabajo. Esta trabaja independiente de la rama or
 switch <rama>: Cambia tu sitio de trabajo entre ramas
 
 merge <rama>: Combina los datos de ultimo commit de la rama seleccionada con el estado de la rama en la que te encuentras
+
+### CONFLICTO ###
+Si existe un conflicto de código entre dos equipos o dos ramas (main y login) no podrá hacerse un merge. Git nos avisará 
+y nos preguntará qué código deseamos mantener. Al llegar a la conclusión de qué código elegir solo se añade con git add 
+y se hace commit. MIENTRAS NO SE RESUELVA EL CONFLICTO GIT NO SALDRÁ DEL ESTADO 'MERGE'
