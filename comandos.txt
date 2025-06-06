@@ -41,3 +41,9 @@ merge <rama>: Combina los datos de ultimo commit de la rama seleccionada con el 
 Si existe un conflicto de código entre dos equipos o dos ramas (main y login) no podrá hacerse un merge. Git nos avisará 
 y nos preguntará qué código deseamos mantener. Al llegar a la conclusión de qué código elegir solo se añade con git add 
 y se hace commit. MIENTRAS NO SE RESUELVA EL CONFLICTO GIT NO SALDRÁ DEL ESTADO 'MERGE'
+
+stash: Guarda un commit privado que, si necesitas cambiar de rama evita que pierdas el trabajo realizado
+
+stash pop: Despliega todos los cambios guardados en stash
+
+stash drop: Descarta todos los cambios guardados en stash
