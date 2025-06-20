@@ -49,3 +49,5 @@ stash pop: Despliega todos los cambios guardados en stash
 stash drop: Descarta todos los cambios guardados en stash
 
 clone: Clona un repositorio mediante su URL proporcionada desde GitHub (se crea en el directorio en el que te encuentres)
+
+push: Actualiza los archivos desde local hasta el repositorio remoto
